@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body{
     font-family: 'Raleway', sans-serif;
 }
@@ -25,3 +27,5 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
+  
