@@ -1,0 +1,19 @@
+.education {
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    padding: 20px;
+  }
+
+  .containerEducation {
+    flex: 1; 
+    margin-top: 120px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .infoEducation {
+    flex-direction: column;
+    display: flex;
+  }

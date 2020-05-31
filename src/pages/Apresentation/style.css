@@ -1,14 +1,54 @@
-.apresentation {
+  .apresentation {
     font-family: 'Bebas Neue';
     font-size: 60px;
-    padding: 30px;
+    color: #353535;
   }
 
   .containerApresentation {
-    flex: 1; 
     margin-top: 90px;
-    padding: 20px;
+  }
+
+  .gridInfoApresentation{
     display: flex;
+    padding: 30px;
     align-items: center;
-    justify-content: space-around;
+  }
+
+  .gridProfile{
+    padding: 20px;
+  }
+
+  .profile{
+      border-radius: 50%;
+      width: 400px;
+      height: 400px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .profile{
+      border-radius: 50%;
+      width: 190px;
+      height: 190px;
+    }
+
+    .gridProfile{
+      display: flex;
+      justify-content: center;
+      padding: 0px;
+    }
+
+    .containerApresentation {
+      margin-top: 60px;
+    }
+
+    .apresentation {
+      font-family: 'Bebas Neue';
+      font-size: 35px;
+      color: #353535;
+    }
+
+    .gridInfoApresentation{
+      display: flex;
+      padding: 30px;
+    }
   }

@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import {ButtonBase} from '@material-ui/core'
+import {Menu} from '@material-ui/icons'
 
 export default class CustomControls extends React.Component {
     static propTypes = {
@@ -21,7 +23,16 @@ export default class CustomControls extends React.Component {
         transform: 'translateX(-50%)',
       },
     }
-  
+
+    componentDidMount(){
+      let mainNav = document.getElementById("js-menu");
+      let navBarToggle = document.getElementById("js-navbar-toggle");
+
+      navBarToggle.addEventListener("click", function() {
+        mainNav.classList.toggle("active");
+  });
+
+    }
     renderMenu(currentSlideIndex) {
       const { slidesCount, scrollToSlide } = this.props;
       const slidesNumbers = [];
@@ -33,13 +44,27 @@ export default class CustomControls extends React.Component {
       const projects = {disabled: currentSlideIndex === 4, key: 0, onClick: () => scrollToSlide(4)}
   
       return (
-        <ul style={{padding: 15, display: 'flex', justifyContent: 'flex-end'}}>
-          <li {...apresentation}><a href={'javascript:void(0)'}>Apresentação</a></li>
-          <li {...education}><a href={'javascript:void(0)'} >Formação</a></li>
-          <li {...experience}><a href={'javascript:void(0)'}>Experiência</a></li>
-          <li {...skills}><a href={'javascript:void(0)'}>Habilidades</a></li>
-          <li {...projects}><a href={'javascript:void(0)'}>Projetos</a></li>
-        </ul>
+        <nav className="navbar">
+           <span class="navbar-toggle" id="js-navbar-toggle">
+              <Menu fontSize={'large'}/>
+          </span>
+          <a href={'javascript:void(0)'} className="logo">logo</a>
+          <ul className="main-nav" id="js-menu">
+              <li {...apresentation}><a href={'javascript:void(0)'} className="nav-links">Apresentação</a></li>
+              <li {...education}><a href={'javascript:void(0)'} className="nav-links">Formação</a></li>
+              <li {...experience}><a href={'javascript:void(0)'} className="nav-links">Experiência</a></li>
+              <li {...skills}><a href={'javascript:void(0)'} className="nav-links">Habilidades</a></li>
+              <li {...projects}><a href={'javascript:void(0)'} className="nav-links">Projetos</a></li>
+          </ul>
+      </nav>
+     
+        // <ul style={{padding: 15, display: 'flex', justifyContent: 'flex-end'}}>
+        //   <li {...apresentation}><a href={'javascript:void(0)'}>Apresentação</a></li>
+        //   <li {...education}><a href={'javascript:void(0)'} >Formação</a></li>
+        //   <li {...experience}><a href={'javascript:void(0)'}>Experiência</a></li>
+        //   <li {...skills}><a href={'javascript:void(0)'}>Habilidades</a></li>
+        //   <li {...projects}><a href={'javascript:void(0)'}>Projetos</a></li>
+        // </ul>
       )
       
     }
