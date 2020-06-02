@@ -14,8 +14,8 @@ export default function Education(){
                     <span>MARÇO/2015 – JULHO/2019 </span>
                 </div>
             </Grid>
-            <Grid item xs={12} md={6}>
-                <img style={{borderRadius: 300}} src={ImgEducation} width={500} height={400}/>
+            <Grid item xs={12} md={6} className='gridImage'>
+                <img className='imageEducation' src={ImgEducation}/>
             </Grid>
         </Grid>
     )

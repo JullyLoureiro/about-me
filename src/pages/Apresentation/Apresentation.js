@@ -1,5 +1,5 @@
 import React from 'react'
-import PhotoMe from '../../assets/photo-me.JPG'
+import PhotoMe from '../../assets/photo-me2.jpg'
 import './style.css'
 import { slideInUp } from 'react-animations'
 import Radium, {StyleRoot} from 'radium'

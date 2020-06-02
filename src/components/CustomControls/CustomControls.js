@@ -57,14 +57,6 @@ export default class CustomControls extends React.Component {
               <li {...projects}><a href={'javascript:void(0)'} className="nav-links">Projetos</a></li>
           </ul>
       </nav>
-     
-        // <ul style={{padding: 15, display: 'flex', justifyContent: 'flex-end'}}>
-        //   <li {...apresentation}><a href={'javascript:void(0)'}>Apresentação</a></li>
-        //   <li {...education}><a href={'javascript:void(0)'} >Formação</a></li>
-        //   <li {...experience}><a href={'javascript:void(0)'}>Experiência</a></li>
-        //   <li {...skills}><a href={'javascript:void(0)'}>Habilidades</a></li>
-        //   <li {...projects}><a href={'javascript:void(0)'}>Projetos</a></li>
-        // </ul>
       )
       
     }

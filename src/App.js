@@ -6,7 +6,7 @@ import Education from './pages/Education/Education'
 import Skills from './pages/Skills/Skills'
 import Experience from './pages/Experience/Experience'
 import CustomControls from './components/CustomControls/CustomControls'
-
+import Contact from './components/Contact/Contact'
 
 export default function FullPageExampleCustomControls() {
   const baseStyle = {
@@ -14,33 +14,33 @@ export default function FullPageExampleCustomControls() {
     display: 'flex',
     justifyContent: 'center',
   };
-  const backgroundApresentation = {
-   // backgroundImage: "url(" + "https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" + ")",
-  };
 
   return (
-    <FullPage controls={CustomControls}>
-     
-      <Slide style={{...baseStyle, ...backgroundApresentation}}>
-        <Apresentation />
-      </Slide>
-     
-      <Slide style={{ ...baseStyle}}>
-        <Education />
-      </Slide>
-      
-      <Slide style={{ ...baseStyle}}>
-        <Experience />
-      </Slide>
-      
-      <Slide style={{ ...baseStyle}}>
-        <Skills />
-      </Slide>
-     
-      <Slide style={{ ...baseStyle}}>
-        <h1>5</h1>
-      </Slide>
+    <div>
+       <Contact />
 
-    </FullPage>
+       <FullPage controls={CustomControls}>
+        <Slide style={{...baseStyle}}>
+          <Apresentation />
+        </Slide>
+        
+        <Slide style={{ ...baseStyle}}>
+          <Education />
+        </Slide>
+        
+        <Slide style={{ ...baseStyle}}>
+          <Experience />
+        </Slide>
+        
+        <Slide style={{ ...baseStyle}}>
+          <Skills />
+        </Slide>
+        
+        <Slide style={{ ...baseStyle}}>
+          <h1>5</h1>
+        </Slide>
+      </FullPage>
+    </div>
+  
   );
 }

@@ -1,0 +1,16 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.icon{
+    color: #353535;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.icon:hover{
+    color: #FF0090;
+}
