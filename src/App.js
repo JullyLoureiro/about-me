@@ -25,11 +25,11 @@ export default function FullPageExampleCustomControls() {
         </Slide>
         
         <Slide style={{ ...baseStyle}}>
-          <Education />
+            <Experience />
         </Slide>
         
         <Slide style={{ ...baseStyle}}>
-          <Experience />
+            <Education />
         </Slide>
         
         <Slide style={{ ...baseStyle}}>

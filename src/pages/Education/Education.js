@@ -1,7 +1,6 @@
 import React from 'react'
 import ImgEducation from '../../assets/education.png'
 import './style.css'
-import {pink} from '../../baseColors/colors'
 import {Grid} from '@material-ui/core'
 
 export default function Education(){
