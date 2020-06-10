@@ -5,6 +5,8 @@ import { slideInUp } from 'react-animations'
 import Radium, {StyleRoot} from 'radium'
 import {pink} from '../../baseColors/colors'
 import {Grid} from '@material-ui/core'
+import Contact from '../../components/Contact/Contact'
+
 
 const styles = {
     bounce: {
@@ -21,9 +23,10 @@ export default function Apresentation(){
                     <img className='profile' src={PhotoMe}/>
                 </Grid>
                 <Grid item xs={12} md={8}  className='gridInfoApresentation'>
-                    <span className='apresentation'>Olá, me chamo <span style={{color: pink}}>Juliana Loureiro</span>! Sou Desenvolvedora Front-End e amante do desenvolvimento mobile.</span>
+                    <span className='apresentation'>Olá, me chamo <span style={{color: pink}}>Juliana Loureiro</span>!<br></br>Sou Desenvolvedora Front-End e amante do desenvolvimento mobile.</span>
                 </Grid>
             </Grid>
+            <Contact />
         </StyleRoot>
     )
 }

@@ -6,7 +6,6 @@ import Education from './pages/Education/Education'
 import Skills from './pages/Skills/Skills'
 import Experience from './pages/Experience/Experience'
 import CustomControls from './components/CustomControls/CustomControls'
-import Contact from './components/Contact/Contact'
 
 export default function FullPageExampleCustomControls() {
   const baseStyle = {
@@ -17,8 +16,6 @@ export default function FullPageExampleCustomControls() {
 
   return (
     <div>
-       <Contact />
-
        <FullPage controls={CustomControls}>
         <Slide style={{...baseStyle}}>
           <Apresentation />
