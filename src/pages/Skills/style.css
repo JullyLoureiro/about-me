@@ -1,7 +1,55 @@
 .containerSkills{
-    flex: 1;
-    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 60px;
+}
+
+.skill{
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+    padding: 20px;
+}
+
+.info{
     justify-content: center;
     align-items: center;
     display: flex;
 }
+
+.textInfo{
+    text-align: justify;
+}
+
+.progress {
+    flex-grow: 0;
+    padding: 10px;
+    max-width: 60% !important;
+    flex-basis: 100%;
+}
+
+.WithStyles\(ForwardRef\(LinearProgress\)\)-colorPrimary-2 {
+    z-index: -1;
+    background-color: #eeeeee;
+}
+
+.imgSkills{
+    width: 370px;
+    height: 300px;
+}
+
+label{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .progress {
+        flex-grow: 0;
+        max-width: 80% !important;
+        flex-basis: 100%;
+    }
+    .info{
+        display: none;
+    }
+}
+
