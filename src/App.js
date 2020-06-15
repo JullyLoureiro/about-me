@@ -5,6 +5,7 @@ import Apresentation from './pages/Apresentation/Apresentation'
 import Education from './pages/Education/Education'
 import Skills from './pages/Skills/Skills'
 import Experience from './pages/Experience/Experience'
+import Projects from './pages/Projects/Projects'
 import CustomControls from './components/CustomControls/CustomControls'
 
 export default function FullPageExampleCustomControls() {
@@ -34,7 +35,7 @@ export default function FullPageExampleCustomControls() {
         </Slide>
         
         <Slide style={{ ...baseStyle}}>
-          <h1>5</h1>
+          <Projects />
         </Slide>
       </FullPage>
     </div>
