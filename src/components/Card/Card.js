@@ -38,7 +38,7 @@ export default function ImgMediaCard(props) {
 
       <CardActions>
         <Button size="small" color="primary">
-          Ver
+          <a style={{textDecoration: 'none'}} href={props.url} target={'_blank'}>Ver mais</a>
         </Button>
       </CardActions>
     </Card>

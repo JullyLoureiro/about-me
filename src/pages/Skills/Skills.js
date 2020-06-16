@@ -30,7 +30,7 @@ export default function Skills(){
         <Grid container direction={'row'}>
             <Grid item xs={12} md={5} className='info'>
                 <Grid container direction={'column'} >
-                    <div >
+                    <div style={{padding: 130, marginTop: 30}}>
                         <span className='textInfo'>Este progress baseia-se em uma auto crítica da minha atual experiência e aprendizado nas tecnologias listadas. Para uma melhor avaliação consulte meus repositórios github e/ou sinta-se à vontade para aplicar testes condizentes.</span>
                         <br/>
                         <img className='imgSkills' src={ImgSkills}/>

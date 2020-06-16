@@ -2,7 +2,8 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-top: 60px;
+    margin-top: 140px;
+    z-index: -1;
 }
 
 .skill{
@@ -26,6 +27,7 @@
     padding: 10px;
     max-width: 60% !important;
     flex-basis: 100%;
+    z-index: -1;
 }
 
 .WithStyles\(ForwardRef\(LinearProgress\)\)-colorPrimary-2 {
@@ -51,5 +53,13 @@ label{
     .info{
         display: none;
     }
+
+    .containerSkills{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 60px;
+    }
+    
 }
 
