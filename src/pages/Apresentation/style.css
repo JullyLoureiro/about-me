@@ -29,8 +29,8 @@
   @media screen and (max-width: 768px) {
     .profile{
       border-radius: 50%;
-      width: 190px;
-      height: 190px;
+      width: 160px;
+      height: 160px;
     }
 
     .gridProfile{
@@ -40,12 +40,12 @@
     }
 
     .containerApresentation {
-      margin-top: 10px;
+      margin-top: 20px;
     }
 
     .apresentation {
       font-family: 'Bebas Neue';
-      font-size: 35px;
+      font-size: 32px;
       color: #353535;
     }
 
