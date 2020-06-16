@@ -97,9 +97,9 @@ export default function FullPageExampleCustomControls() {
           <Skills />
         </Slide>
         
-        <Slide style={{ ...baseStyle}}>
+        {/* <Slide style={{ ...baseStyle}}>
           <Projects />
-        </Slide>
+        </Slide> */}
       </FullPage>
     </div>
   

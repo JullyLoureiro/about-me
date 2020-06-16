@@ -11,6 +11,9 @@ export default function Education(){
                     <span className='education'>FORMAÇÃO ACADÊMICA</span>
                     <span>Bacharel em Sistemas de Informações | Universidade LaSalle RJ</span>
                     <span>MARÇO/2015 – JULHO/2019 </span>
+                    <br />
+
+                    <span className='destaque'>* Prêmio de Destaque Acadêmico por um dos maiores coeficientes de rendimento entre os formandos do semestre de 2019, do curso de Sistemas de Informação da Unilasalle RJ.</span>
                 </div>
             </Grid>
             <Grid item xs={12} md={6} className='gridImage'>

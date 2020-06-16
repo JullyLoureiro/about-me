@@ -4,6 +4,11 @@
     padding: 20px;
   }
 
+  .destaque{
+    font-style: italic;
+    font-size: 14px;
+  }
+
   .containerEducation {
     flex: 1; 
     display: flex;

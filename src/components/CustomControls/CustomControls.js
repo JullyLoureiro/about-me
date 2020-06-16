@@ -54,7 +54,7 @@ export default class CustomControls extends React.Component {
               <li {...experience}><a href={'javascript:void(0)'} className="nav-links">Experiência</a></li>
               <li {...education}><a href={'javascript:void(0)'} className="nav-links">Formação</a></li>
               <li {...skills}><a href={'javascript:void(0)'} className="nav-links">Habilidades</a></li>
-              <li {...projects}><a href={'javascript:void(0)'} className="nav-links">Projetos</a></li>
+              {/* <li {...projects}><a href={'javascript:void(0)'} className="nav-links">Projetos</a></li> */}
           </ul>
       </nav>
       )
