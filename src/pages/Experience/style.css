@@ -18,6 +18,7 @@
     font-size: 40px;
     width: 100%;
     padding: 20px;
+    color: #FF0090;
   }
 
   .infoExperience {
@@ -26,31 +27,52 @@
     text-align: center;
   }
 
-  .scrolling-wrapper-flexbox {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    height: 100vh;
-    overflow-x: auto;
+  .card {
+    flex: 0 0 auto;
+    width: 100%;
+    background-color: #fff;
+    padding: 40px;
   }
 
-  .scrolling-wrapper-flexbox .card {
-    flex: 0 0 auto;
-    /* text-align: center; */
-    width: 100%;
-    /* background-color: red; */
+  .divDescription{
+      margin-top: 20px;
   }
 
   .period{
     font-weight: bold;
+    font-size: 20px;
     padding: 20px;
   }
 
   .description{
-    font-weight: bold;
+    text-align: justify;
+    margin-top: 10px;
     padding: 20px;
   }
 
   @media screen and (max-width: 768px) {
-   
+    .experience {
+      font-family: 'Bebas Neue';
+      font-size: 25px;
+      width: 100%;
+      padding: 20px;
+      color: #FF0090;
+    }
+  
+    .period{
+      font-weight: bold;
+      font-size: 14px;
+      padding: 20px;
+    }
+  
+    .description{
+      font-size: 14px;
+      margin-top: 10px;
+      padding: 20px;
+    }
+
+    .divDescription{
+      margin-top: 10px;
+      text-align: justify;
+    }
   }

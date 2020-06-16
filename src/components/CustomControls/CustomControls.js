@@ -39,9 +39,9 @@ export default class CustomControls extends React.Component {
   
       const apresentation = {disabled: currentSlideIndex === 0, key: 0, onClick: () => scrollToSlide(0)}
       const experience = {disabled: currentSlideIndex === 1, key: 0, onClick: () => scrollToSlide(1)}
-      const education = {disabled: currentSlideIndex === 2, key: 0, onClick: () => scrollToSlide(2)}
-      const skills = {disabled: currentSlideIndex === 3, key: 0, onClick: () => scrollToSlide(3)}
-      const projects = {disabled: currentSlideIndex === 4, key: 0, onClick: () => scrollToSlide(4)}
+      const education = {disabled: currentSlideIndex === 5, key: 0, onClick: () => scrollToSlide(5)}
+      const skills = {disabled: currentSlideIndex === 6, key: 0, onClick: () => scrollToSlide(6)}
+      const projects = {disabled: currentSlideIndex === 7, key: 0, onClick: () => scrollToSlide(7)}
   
       return (
         <nav className="navbar">

@@ -34,6 +34,7 @@ export default function Projects(){
                     img='https://raw.githubusercontent.com/JullyLoureiro/projeto-final-ahp/master/app/src/main/res/drawable/logo.png'
                 />
             </Grid>
+                Desenvolvido por Juliana Loureiro
         </Grid>
     )
 }
