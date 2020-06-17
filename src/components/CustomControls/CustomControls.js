@@ -48,7 +48,7 @@ export default class CustomControls extends React.Component {
            <span class="navbar-toggle" id="js-navbar-toggle">
               <Menu fontSize={'large'}/>
           </span>
-          <a href={'javascript:void(0)'} className="logo">logo</a>
+          <a href={'javascript:void(0)'} className="logo"><a style={{color: '#FF0090', textShadow: '1px 1px 4px #808080'}}>JULIANA</a> LOUREIRO</a>
           <ul className="main-nav" id="js-menu">
               <li {...apresentation}><a href={'javascript:void(0)'} className="nav-links">Apresentação</a></li>
               <li {...experience}><a href={'javascript:void(0)'} className="nav-links">Experiência</a></li>
